@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="testing" max_length="40" name="x_sourcecontroltes_testing" type="collection">
+        <element default="Enter First Name" label="First Name" max_length="40" name="first_name" type="string"/>
+        <element default="Enter Last Name" display="true" label="Last Name" max_length="20" name="last_name" type="string"/>
+    </element>
+</database>
