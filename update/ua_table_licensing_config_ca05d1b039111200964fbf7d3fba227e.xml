@@ -3,8 +3,7 @@
     <ua_table_licensing_config action="INSERT_OR_UPDATE">
         <is_fulfillment>true</is_fulfillment>
         <name>x_sourcecontroltes_testing</name>
-        <owner_condition table="x_sourcecontroltes_testing">opened_by=javascript:gs.getUserID()^EQ<item endquery="false" field="opened_by" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserID()"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <owner_condition table="x_sourcecontroltes_testing">opened_by=javascript:gs.getUserID()^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </owner_condition>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -20,6 +19,6 @@
         <sys_update_name>ua_table_licensing_config_ca05d1b039111200964fbf7d3fba227e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2016-01-29 07:05:50</sys_updated_on>
-        <table display_value="testing" name="x_sourcecontroltes_testing">aa84997039111200964fbf7d3fba22b2</table>
+        <table/>
     </ua_table_licensing_config>
 </record_update>
